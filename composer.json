@@ -1,0 +1,25 @@
+{
+    "name": "globalecomservices/shippingextrafee",
+    "description": "Globalecomservices ShippingExtraFee",
+	"type": "magento2-module",
+	"license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Globalecom",
+            "email": "mage@globalecom.net"
+        }
+    ],
+    "version": "2.0.0",
+    "minimum-stability": "dev",
+    "require": {
+   	"php": "^7.1.0"
+    },
+	"autoload": {
+        "psr-4": {
+            "Globalecomservices\\ShippingExtraFee\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
